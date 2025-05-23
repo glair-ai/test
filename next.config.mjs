@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const repoName = "gdplabs-exploration"; // <-- CHANGE this to your repo name
+const repoName = "test"; // <-- CHANGE this to your repo name
 const isGithubPages = process.env.NODE_ENV === "production";
 
 const nextConfig = {

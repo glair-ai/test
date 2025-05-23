@@ -1,7 +1,7 @@
-import Image from "next/image"
-import Link from "next/link"
-import { ChevronRight, MessageCircle } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import Image from "next/image";
+import Link from "next/link";
+import { ChevronRight, MessageCircle } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       <header className="container mx-auto py-4 px-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Image
-            src="/placeholder.svg?height=30&width=30"
+            src="/test/placeholder.svg?height=30&width=30"
             alt="Glair Logo"
             width={30}
             height={30}
@@ -19,21 +19,35 @@ export default function Home() {
           <span className="font-semibold text-white">glair.ai</span>
         </div>
         <nav className="hidden md:flex items-center gap-6">
-          <Link href="#" className="text-sm font-medium text-white/80 hover:text-white">
+          <Link
+            href="#"
+            className="text-sm font-medium text-white/80 hover:text-white"
+          >
             Product
           </Link>
-          <Link href="#" className="text-sm font-medium text-white/80 hover:text-white flex items-center">
+          <Link
+            href="#"
+            className="text-sm font-medium text-white/80 hover:text-white flex items-center"
+          >
             Consulting <ChevronRight className="h-4 w-4 ml-1" />
           </Link>
-          <Link href="#" className="text-sm font-medium text-white/80 hover:text-white">
+          <Link
+            href="#"
+            className="text-sm font-medium text-white/80 hover:text-white"
+          >
             Our Company
           </Link>
-          <Link href="#" className="text-sm font-medium text-white/80 hover:text-white">
+          <Link
+            href="#"
+            className="text-sm font-medium text-white/80 hover:text-white"
+          >
             Blog
           </Link>
         </nav>
         <div className="flex items-center gap-4">
-          <Button className="bg-[#00A8FF] hover:bg-[#0090DD] text-white rounded-md">Contact Us</Button>
+          <Button className="bg-[#00A8FF] hover:bg-[#0090DD] text-white rounded-md">
+            Contact Us
+          </Button>
         </div>
       </header>
 
@@ -42,12 +56,16 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <div className="text-[#00A8FF] font-medium mb-2">GLAIR eKYC</div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Improve customer experience using eKYC</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              Improve customer experience using eKYC
+            </h1>
             <p className="text-white/80 mb-8">
-              Secure and reliable identity verification solution that helps you verify customers using face biometric
-              and identity documents.
+              Secure and reliable identity verification solution that helps you
+              verify customers using face biometric and identity documents.
             </p>
-            <Button className="bg-[#00A8FF] hover:bg-[#0090DD] text-white rounded-md">Learn More</Button>
+            <Button className="bg-[#00A8FF] hover:bg-[#0090DD] text-white rounded-md">
+              Learn More
+            </Button>
           </div>
           <div className="flex justify-center">
             <div className="relative w-[280px] h-[500px]">
@@ -55,10 +73,20 @@ export default function Home() {
                 <div className="p-4">
                   <div className="flex justify-between items-center mb-8">
                     <div className="w-12 h-12 rounded-full bg-[#051736] overflow-hidden">
-                      <Image src="/placeholder.svg?height=48&width=48" alt="User" width={48} height={48} />
+                      <Image
+                        src="/test/placeholder.svg?height=48&width=48"
+                        alt="User"
+                        width={48}
+                        height={48}
+                      />
                     </div>
                     <div className="w-12 h-12 rounded-full bg-[#051736] overflow-hidden">
-                      <Image src="/placeholder.svg?height=48&width=48" alt="User" width={48} height={48} />
+                      <Image
+                        src="/test/placeholder.svg?height=48&width=48"
+                        alt="User"
+                        width={48}
+                        height={48}
+                      />
                     </div>
                   </div>
                   <div className="bg-[#051736] rounded-xl p-4 mb-4">
@@ -79,20 +107,40 @@ export default function Home() {
 
       {/* Trusted Companies */}
       <section className="container mx-auto px-4 py-12 text-center">
-        <h2 className="text-2xl font-bold mb-8">Trusted by the most prestigious companies</h2>
+        <h2 className="text-2xl font-bold mb-8">
+          Trusted by the most prestigious companies
+        </h2>
         <div className="flex flex-wrap justify-center gap-8 items-center">
-          <Image src="/placeholder.svg?height=40&width=80" alt="APP" width={80} height={40} className="opacity-80" />
-          <Image src="/placeholder.svg?height=40&width=80" alt="M" width={80} height={40} className="opacity-80" />
-          <Image src="/placeholder.svg?height=40&width=80" alt="BCA" width={80} height={40} className="opacity-80" />
           <Image
-            src="/placeholder.svg?height=40&width=80"
+            src="/test/placeholder.svg?height=40&width=80"
+            alt="APP"
+            width={80}
+            height={40}
+            className="opacity-80"
+          />
+          <Image
+            src="/test/placeholder.svg?height=40&width=80"
+            alt="M"
+            width={80}
+            height={40}
+            className="opacity-80"
+          />
+          <Image
+            src="/test/placeholder.svg?height=40&width=80"
+            alt="BCA"
+            width={80}
+            height={40}
+            className="opacity-80"
+          />
+          <Image
+            src="/test/placeholder.svg?height=40&width=80"
             alt="BCA Digital"
             width={80}
             height={40}
             className="opacity-80"
           />
           <Image
-            src="/placeholder.svg?height=40&width=80"
+            src="/test/placeholder.svg?height=40&width=80"
             alt="BCA Finance"
             width={80}
             height={40}
@@ -106,13 +154,14 @@ export default function Home() {
         <h2 className="text-2xl md:text-3xl font-bold mb-4">
           Accelerate digital transformation with ABCD-X,
           <br />
-          we build services with <span className="text-[#00A8FF]">Artificial Intelligence</span>
+          we build services with{" "}
+          <span className="text-[#00A8FF]">Artificial Intelligence</span>
           <br />
           technology in a secure environment
         </h2>
         <div className="mt-8 relative aspect-video max-w-4xl mx-auto">
           <Image
-            src="/placeholder.svg?height=600&width=1000"
+            src="/test/placeholder.svg?height=600&width=1000"
             alt="AI Technology"
             width={1000}
             height={600}
@@ -133,10 +182,12 @@ export default function Home() {
       <section className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">GLAIR Product</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              GLAIR Product
+            </h2>
             <p className="text-white/80 mb-6">
-              GLAIR builds AI products that can solve business problems. Our products are ready-to-use and can be
-              implemented right away.
+              GLAIR builds AI products that can solve business problems. Our
+              products are ready-to-use and can be implemented right away.
             </p>
             <ul className="space-y-2 mb-6">
               <li className="flex items-center gap-2">
@@ -152,10 +203,17 @@ export default function Home() {
                 <span>Analytics</span>
               </li>
             </ul>
-            <Button className="bg-[#00A8FF] hover:bg-[#0090DD] text-white rounded-md">Explore Products</Button>
+            <Button className="bg-[#00A8FF] hover:bg-[#0090DD] text-white rounded-md">
+              Explore Products
+            </Button>
           </div>
           <div className="flex justify-center">
-            <Image src="/placeholder.svg?height=300&width=400" alt="GLAIR Product" width={400} height={300} />
+            <Image
+              src="/test/placeholder.svg?height=300&width=400"
+              alt="GLAIR Product"
+              width={400}
+              height={300}
+            />
           </div>
         </div>
       </section>
@@ -164,13 +222,20 @@ export default function Home() {
       <section className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1 flex justify-center">
-            <Image src="/placeholder.svg?height=300&width=400" alt="GLAIR Consulting" width={400} height={300} />
+            <Image
+              src="/test/placeholder.svg?height=300&width=400"
+              alt="GLAIR Consulting"
+              width={400}
+              height={300}
+            />
           </div>
           <div className="order-1 md:order-2">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">GLAIR Consulting</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              GLAIR Consulting
+            </h2>
             <p className="text-white/80 mb-6">
-              GLAIR provides ready-to-implement enterprise-class AI solutions to solve your business problems. Our team
-              consists of experts in:
+              GLAIR provides ready-to-implement enterprise-class AI solutions to
+              solve your business problems. Our team consists of experts in:
             </p>
             <div className="grid grid-cols-2 gap-4 mb-6">
               <div>
@@ -206,7 +271,9 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <Button className="bg-[#00A8FF] hover:bg-[#0090DD] text-white rounded-md">Learn More</Button>
+            <Button className="bg-[#00A8FF] hover:bg-[#0090DD] text-white rounded-md">
+              Learn More
+            </Button>
           </div>
         </div>
       </section>
@@ -214,7 +281,8 @@ export default function Home() {
       {/* ABCD-X Technology */}
       <section className="container mx-auto px-4 py-12">
         <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center">
-          This is how ABCD-X technology make your business <span className="text-[#00A8FF]">faster</span>
+          This is how ABCD-X technology make your business{" "}
+          <span className="text-[#00A8FF]">faster</span>
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
           {[
@@ -268,17 +336,24 @@ export default function Home() {
 
       {/* Testimonials */}
       <section className="container mx-auto px-4 py-12">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8">What our clients say about us</h2>
+        <h2 className="text-2xl md:text-3xl font-bold mb-8">
+          What our clients say about us
+        </h2>
         <div className="grid md:grid-cols-3 gap-6">
           <div className="bg-white text-[#051736] rounded-xl p-6">
             <div className="text-[#00A8FF] text-4xl mb-4">"</div>
             <p className="mb-4">
-              Working with GLAIR is a great experience. They delivered a good-looking, functional product that meets our
-              requirements.
+              Working with GLAIR is a great experience. They delivered a
+              good-looking, functional product that meets our requirements.
             </p>
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full overflow-hidden">
-                <Image src="/placeholder.svg?height=40&width=40" alt="Client" width={40} height={40} />
+                <Image
+                  src="/test/placeholder.svg?height=40&width=40"
+                  alt="Client"
+                  width={40}
+                  height={40}
+                />
               </div>
               <div>
                 <div className="font-medium">Sutanto Hendrawan</div>
@@ -289,11 +364,17 @@ export default function Home() {
           <div className="bg-white text-[#051736] rounded-xl p-6">
             <div className="text-[#00A8FF] text-4xl mb-4">"</div>
             <p className="mb-4">
-              GLAIR team is organized and professional. They understand our needs and deliver the best solution.
+              GLAIR team is organized and professional. They understand our
+              needs and deliver the best solution.
             </p>
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full overflow-hidden">
-                <Image src="/placeholder.svg?height=40&width=40" alt="Client" width={40} height={40} />
+                <Image
+                  src="/test/placeholder.svg?height=40&width=40"
+                  alt="Client"
+                  width={40}
+                  height={40}
+                />
               </div>
               <div>
                 <div className="font-medium">Client Name</div>
@@ -304,12 +385,18 @@ export default function Home() {
           <div className="bg-white text-[#051736] rounded-xl p-6">
             <div className="text-[#00A8FF] text-4xl mb-4">"</div>
             <p className="mb-4">
-              GLAIR provides us with a quick solution that we can implement right away. Their team is very helpful in
-              every step of the project.
+              GLAIR provides us with a quick solution that we can implement
+              right away. Their team is very helpful in every step of the
+              project.
             </p>
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full overflow-hidden">
-                <Image src="/placeholder.svg?height=40&width=40" alt="Client" width={40} height={40} />
+                <Image
+                  src="/test/placeholder.svg?height=40&width=40"
+                  alt="Client"
+                  width={40}
+                  height={40}
+                />
               </div>
               <div>
                 <div className="font-medium">Bayu Dwiputra</div>
@@ -322,18 +409,26 @@ export default function Home() {
 
       {/* Partners */}
       <section className="container mx-auto px-4 py-12">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Our Partner</h2>
+        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
+          Our Partner
+        </h2>
         <div className="flex flex-wrap justify-center gap-8 items-center mb-8">
-          <Image src="/placeholder.svg?height=60&width=120" alt="AWS" width={120} height={60} className="opacity-80" />
           <Image
-            src="/placeholder.svg?height=60&width=120"
+            src="/test/placeholder.svg?height=60&width=120"
+            alt="AWS"
+            width={120}
+            height={60}
+            className="opacity-80"
+          />
+          <Image
+            src="/test/placeholder.svg?height=60&width=120"
             alt="Intel"
             width={120}
             height={60}
             className="opacity-80"
           />
           <Image
-            src="/placeholder.svg?height=60&width=120"
+            src="/test/placeholder.svg?height=60&width=120"
             alt="Consensys"
             width={120}
             height={60}
@@ -342,56 +437,56 @@ export default function Home() {
         </div>
         <div className="flex flex-wrap justify-center gap-8 items-center">
           <Image
-            src="/placeholder.svg?height=40&width=80"
+            src="/test/placeholder.svg?height=40&width=80"
             alt="Partner"
             width={80}
             height={40}
             className="opacity-80"
           />
           <Image
-            src="/placeholder.svg?height=40&width=80"
+            src="/test/placeholder.svg?height=40&width=80"
             alt="Partner"
             width={80}
             height={40}
             className="opacity-80"
           />
           <Image
-            src="/placeholder.svg?height=40&width=80"
+            src="/test/placeholder.svg?height=40&width=80"
             alt="Partner"
             width={80}
             height={40}
             className="opacity-80"
           />
           <Image
-            src="/placeholder.svg?height=40&width=80"
+            src="/test/placeholder.svg?height=40&width=80"
             alt="Partner"
             width={80}
             height={40}
             className="opacity-80"
           />
           <Image
-            src="/placeholder.svg?height=40&width=80"
+            src="/test/placeholder.svg?height=40&width=80"
             alt="Partner"
             width={80}
             height={40}
             className="opacity-80"
           />
           <Image
-            src="/placeholder.svg?height=40&width=80"
+            src="/test/placeholder.svg?height=40&width=80"
             alt="Partner"
             width={80}
             height={40}
             className="opacity-80"
           />
           <Image
-            src="/placeholder.svg?height=40&width=80"
+            src="/test/placeholder.svg?height=40&width=80"
             alt="Partner"
             width={80}
             height={40}
             className="opacity-80"
           />
           <Image
-            src="/placeholder.svg?height=40&width=80"
+            src="/test/placeholder.svg?height=40&width=80"
             alt="Partner"
             width={80}
             height={40}
@@ -411,10 +506,13 @@ export default function Home() {
           Ready to accelerate your digital transformation?
         </h2>
         <p className="text-center text-white/80 mb-6">
-          Send us an email, and we will answer your questions regarding our products and services.
+          Send us an email, and we will answer your questions regarding our
+          products and services.
         </p>
         <div className="flex justify-center">
-          <Button className="bg-[#00A8FF] hover:bg-[#0090DD] text-white rounded-md">Contact Us</Button>
+          <Button className="bg-[#00A8FF] hover:bg-[#0090DD] text-white rounded-md">
+            Contact Us
+          </Button>
         </div>
       </section>
 
@@ -424,7 +522,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center mb-8">
             <div className="flex items-center gap-2 mb-4 md:mb-0">
               <Image
-                src="/placeholder.svg?height=30&width=30"
+                src="/test/placeholder.svg?height=30&width=30"
                 alt="Glair Logo"
                 width={30}
                 height={30}
@@ -436,14 +534,38 @@ export default function Home() {
               <Link href="#" className="text-sm text-white/80 hover:text-white">
                 Follow Us
               </Link>
-              <Link href="#" className="w-8 h-8 rounded-full bg-[#0A2550] flex items-center justify-center">
-                <Image src="/placeholder.svg?height=16&width=16" alt="Facebook" width={16} height={16} />
+              <Link
+                href="#"
+                className="w-8 h-8 rounded-full bg-[#0A2550] flex items-center justify-center"
+              >
+                <Image
+                  src="/test/placeholder.svg?height=16&width=16"
+                  alt="Facebook"
+                  width={16}
+                  height={16}
+                />
               </Link>
-              <Link href="#" className="w-8 h-8 rounded-full bg-[#0A2550] flex items-center justify-center">
-                <Image src="/placeholder.svg?height=16&width=16" alt="Instagram" width={16} height={16} />
+              <Link
+                href="#"
+                className="w-8 h-8 rounded-full bg-[#0A2550] flex items-center justify-center"
+              >
+                <Image
+                  src="/test/placeholder.svg?height=16&width=16"
+                  alt="Instagram"
+                  width={16}
+                  height={16}
+                />
               </Link>
-              <Link href="#" className="w-8 h-8 rounded-full bg-[#0A2550] flex items-center justify-center">
-                <Image src="/placeholder.svg?height=16&width=16" alt="LinkedIn" width={16} height={16} />
+              <Link
+                href="#"
+                className="w-8 h-8 rounded-full bg-[#0A2550] flex items-center justify-center"
+              >
+                <Image
+                  src="/test/placeholder.svg?height=16&width=16"
+                  alt="LinkedIn"
+                  width={16}
+                  height={16}
+                />
               </Link>
             </div>
           </div>
@@ -501,8 +623,16 @@ export default function Home() {
               <h3 className="font-bold mb-4">CONTACT</h3>
               <ul className="space-y-2 text-sm text-white/80">
                 <li>
-                  <Link href="mailto:hello@glair.ai" className="hover:text-white flex items-center gap-2">
-                    <Image src="/placeholder.svg?height=16&width=16" alt="Email" width={16} height={16} />
+                  <Link
+                    href="mailto:hello@glair.ai"
+                    className="hover:text-white flex items-center gap-2"
+                  >
+                    <Image
+                      src="/test/placeholder.svg?height=16&width=16"
+                      alt="Email"
+                      width={16}
+                      height={16}
+                    />
                     hello@glair.ai
                   </Link>
                 </li>
@@ -519,9 +649,11 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <div className="text-center text-sm text-white/60">© 2023 GLAIR. All rights reserved.</div>
+          <div className="text-center text-sm text-white/60">
+            © 2023 GLAIR. All rights reserved.
+          </div>
         </div>
       </footer>
     </div>
-  )
+  );
 }
